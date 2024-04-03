@@ -1,0 +1,21 @@
+set.seed(375)
+print(runif(3))
+print(runif(3))
+print(runif(3))
+set.seed(375)
+print(runif(3))
+current<-.Random.seed
+print(runif(3))
+print(runif(3))
+print(runif(3))
+y <- c(8,3,5,7,6,6,8,9,2,3,9,4,10,4,11)
+print(sample(y))
+print(sample(y))
+print(sample(y,5))
+print(sample(y,5))
+print(sample(y,replace=T))
+print(sample(y,replace=T))
+p <- c(1, 2, 3, 4, 5, 5, 4, 3, 2, 1)
+x <- 1:10
+print(sapply(1:5,function(i) sample(x,4,prob=p)))
+
